@@ -1,0 +1,57 @@
+html{
+    text-align: center;
+    align-content: center;
+}
+img#header{
+    width: 50%;
+}
+button#Govern{
+    padding: 1%;
+    margin: 5%;
+    border-radius: 15%;
+    border: outset 5px dimgray;
+    font-family: Comic Sans MS;
+    font-size: 100%;
+    color: white;
+        text-shadow: 0px 0px 2px #000000,
+        0px 0px 2px #000000,
+        0px 0px 2px #000000,
+        0px 0px 2px #000000,
+        0px 0px 2px #000000,
+        0px 0px 2px #000000,
+        0px 0px 2px #000000,
+        0px 0px 2px #000000,
+        0px 0px 2px #000000,
+        0px 0px 2px #000000;
+    background: linear-gradient(0deg, rgba(93,16,162,1) 0%, rgba(255,144,86,1) 68%);
+    transition: 1s;
+}
+button#Nixon{
+    padding: 1%;
+    margin: 5%;
+    border-radius: 15%;
+    border: outset 5px dimgray;
+    font-family: Comic Sans MS;
+    font-size: 100%;
+    color: white;
+        text-shadow: 0px 0px 2px #000000,
+        0px 0px 2px #000000,
+        0px 0px 2px #000000,
+        0px 0px 2px #000000,
+        0px 0px 2px #000000,
+        0px 0px 2px #000000,
+        0px 0px 2px #000000,
+        0px 0px 2px #000000,
+        0px 0px 2px #000000,
+        0px 0px 2px #000000;
+    background: linear-gradient(0deg, rgba(93,16,162,1) 0%, rgba(255,144,86,1) 68%);
+    transition: 1s;
+}
+button#Nixon:hover{
+    font-size: 1000%;
+    transition: font-size 20s;
+}
+button#Govern:hover{
+    font-size: 0.001%;
+    transition: font-size 20s;
+}

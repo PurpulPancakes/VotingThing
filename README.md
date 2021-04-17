@@ -31,7 +31,7 @@ A loop that will create several elements at once
     Random Person Voted for candidate 1! On the bottom of the screen
 
 Adding event listeners AND removing event listeners 
-    
+    Listen for when events occur to a voting button, and remove event listeners if it's candidate 1
 
 A custom cursor either sometimes or always visible 
     mouse turns into click cursor on candidate 1,
