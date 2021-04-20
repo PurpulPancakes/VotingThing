@@ -1,6 +1,34 @@
 html{
     text-align: center;
     align-content: center;
+    background: rgb(177, 140, 197);
+}
+div > img{
+    height: 100px;
+    width: 100px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1%;
+    font-family: Comic Sans MS;
+    background: rgb(71, 62, 189);
+    color: white;
+    text-shadow: 0px 0px 2px #000000,
+    0px 0px 2px #000000,
+    0px 0px 2px #000000,
+    0px 0px 2px #000000,
+    0px 0px 2px #000000,
+    0px 0px 2px #000000,
+    0px 0px 2px #000000,
+    0px 0px 2px #000000,
+    0px 0px 2px #000000,
+    0px 0px 2px #000000;
 }
 img#header{
     width: 50%;
@@ -49,9 +77,11 @@ button#Nixon{
 }
 button#Nixon:hover{
     font-size: 1000%;
-    transition: font-size 20s;
+    transition: font-size 10s;
+    cursor: pointer;
 }
 button#Govern:hover{
     font-size: 0.001%;
-    transition: font-size 20s;
+    transition: font-size 10s;
+    cursor: help;
 }

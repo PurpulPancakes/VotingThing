@@ -3,7 +3,7 @@
 Prompts and Ideas
 
 A landing page where you can choose between the 2 candidates. 
-    Display 2 candidats in the background and a simple voting screen
+    Display 2 candidates in the background and a simple voting screen
 
 An on page load event 
     Something moving around
