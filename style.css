@@ -7,8 +7,10 @@ div > img{
     height: 100px;
     width: 100px;
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 85%;
+    left: 46%;
+    transition: 1s;
+    z-index: -100;
 }
 footer{
     position: absolute;

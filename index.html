@@ -7,15 +7,18 @@
     <title>Vote (For Nixon) Today!</title>
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body id="body" onload="loadingScreen()">
     <header>
         <img id="header" src="banner.jpg">
     </header>
-    <button id="Nixon">Vote for Nixon</button>
-    <button id="Govern">Vote for McGovern</button>
+    <button id="Nixon" onclick="this.innerHTML='Thank you! :D', this.style.transform='rotate(360deg)',
+    this.style.transition='1s',  document.getElementById('face').src='face.png'">Vote for Nixon</button>
+    <button id="Govern" onclick="this.style.display='none', document.getElementById('face').src='hescream.png'">
+    Vote for McGovern</button>
     <footer id="footer">Test</footer>
     <div><img id="face" src="face.png" alt=""></div>
     <script src="footer.js"></script>
     <script src="follow.js"></script>
+    <script src="loading.js"></script>
 </body>
 </html>
