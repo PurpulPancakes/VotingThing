@@ -4,21 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Vote (For Nixon) Today!</title>
+    <title>Vote Today!</title>
     <link rel="stylesheet" href="style.css">
+    <link id="icon" rel="icon" href="face.png">
 </head>
 <body id="body" onload="loadingScreen()">
     <header>
         <img id="header" src="banner.jpg">
+        <ul id="menu" class="absolute bg-gray-100 border border-gray-400 shadow-xl rounded hidden">
+            <li id="hint">Hint! Use the buttons below to vote! :D</li>
+        </ul>
     </header>
     <button id="Nixon" onclick="this.innerHTML='Thank you! :D', this.style.transform='rotate(360deg)',
-    this.style.transition='1s',  document.getElementById('face').src='face.png'">Vote for Nixon</button>
-    <button id="Govern" onclick="this.style.display='none', document.getElementById('face').src='hescream.png'">
+    this.style.transition='1s', document.getElementById('face').src='face.png'">Vote for Nixon</button>
+    <button id="Govern" onclick="this.style.display='none', document.getElementById('face').src='hescream.png', 
+    document.getElementById('hint').innerHTML='Hint! Use the button below to vote! :D'">
     Vote for McGovern</button>
     <footer id="footer">Test</footer>
     <div><img id="face" src="face.png" alt=""></div>
     <script src="footer.js"></script>
     <script src="follow.js"></script>
     <script src="loading.js"></script>
+    <script src="contextmenu.js"></script>
 </body>
 </html>

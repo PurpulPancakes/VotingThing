@@ -3,6 +3,19 @@ html{
     align-content: center;
     background: rgb(177, 140, 197);
 }
+.relative {
+    position: relative;
+}
+.absolute {
+    position: absolute;
+}
+.hidden {
+    /* The menu is hidden at first */
+    display: none;
+}
+ul#menu{
+    margin: 0%;
+}
 div > img{
     height: 100px;
     width: 100px;
